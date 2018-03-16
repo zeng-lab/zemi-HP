@@ -21,64 +21,66 @@
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <title>曽研究室 情報科学研究ゼミナール</title>
     <style media="screen">
-      * {
-        font-family: 'Noto Sans JP';
-      }
-      h1 {
-        text-align: center;
-        margin: 5vh 0;
-        font-size: 5vh;
-      }
-      h2 {
-        text-align: center;
-      }
-      p {
-        margin: 3vh auto;
-        text-align: center;
-      }
-      @media (max-width: 780px) {
-        h1{
-          font-size: 1.5rem;
-        }
-        .textblock {
-          display: inline;
-        }
-        p {
-          text-align: left;
-        }
-      }
-      html> body{
-        margin: 0 10vw;
-        background: linear-gradient(47deg, #93e6e0, #ce9df0, #b4f09d);
-        background-size: 600% 600%;
-        animation: backgroundgradient 18s ease infinite;
-      }
-
-      @keyframes backgroundgradient {
-        0%{background-position:0% 78%}
-        50%{background-position:100% 23%}
-        100%{background-position:0% 78%}
-      }
-
-      section {
-        margin: 10vh 0;
+    * {
+      font-family: 'Noto Sans JP';
+    }
+    h1 {
+      text-align: center;
+      margin: 5vh 0;
+      font-size: 5vh;
+    }
+    h2 {
+      text-align: center;
+    }
+    p {
+      margin: 3vh auto;
+      text-align: center;
+    }
+    @media (max-width: 780px) {
+      h1{
+        font-size: 1.5rem;
       }
       .textblock {
-        display: inline-block;
+        display: inline;
       }
+      p {
+        text-align: left;
+      }
+    }
+    html> body{
+      margin: 0 10vw;
+      background: linear-gradient(47deg, #93e6e0, #ce9df0, #b4f09d);
+      background-size: 600% 600%;
+      animation: backgroundgradient 18s ease infinite;
+    }
 
-     table {
-       margin: 0 auto;
-       background-color: rgba(255,255,255,0.25) !important;
-     }
-     table tr{
-       line-height: 2em;
-       }
-     table td {
-       padding-left: 2vw;
-       }
+    @keyframes backgroundgradient {
+      0%{background-position:0% 78%}
+      50%{background-position:100% 23%}
+      100%{background-position:0% 78%}
+    }
+
+    section {
+      margin: 10vh 0;
+    }
+    .textblock {
+      display: inline-block;
+    }
+
+    table {
+      margin: 0 auto;
+      background-color: rgba(255,255,255,0.25) !important;
+    }
+    table tr{
+      line-height: 2em;
+    }
+    table td {
+      padding-left: 2vw;
+    }
     </style>
   </head>
+
+
   <body>
     <header>
       <h1 id="title">曽研究室 情報科学研究ゼミナール</h1>
@@ -91,41 +93,45 @@
     <section>
       <h1>更新情報</h1>
       <table>
-  <tr>
-    <th>2018.3.9</th>
-    <td>第3回の開催情報を追加しました</td>
-  </tr>
-        
-	<tr>
-	  <th>2018.2.27</th>
-	  <td>第2回の開催日を変更しました</td>
-	</tr>
+        <!--
+        <tr>
+          <th>2018.</th>
+          <td>第n回の開催情報を追加しました</td>
+        </tr>
+        -->
 
-	<tr>
-	  <th>2018.2.24</th>
-	  <td>第2回の開催情報を追加しました</td>
-	</tr>
-
-	<tr>
-	  <th>2018.2.22</th>
-	  <td>第1回の情報を更新しました</td>
-	</tr>
-
-	<tr>
-	  <th>2018.2.17</th>
-	  <td><a href="activity_report.html">アクティビティレポート</a>を公開しました</td>
-	</tr>
-
-	<tr>
-	  <th>2018.2.15</th>
-	  <td>取り扱い内容を追記しました</td>
-	</tr>
-
-	<tr>
-	  <th>2018.2.14</th>
-	  <td>本ページを公開しました</td>
-	</tr>
-
+        <tr>
+          <th>2018.3.16</th>
+          <td>第3回の開催情報を修正しました</td>
+        </tr>
+        <tr>
+          <th>2018.3.9</th>
+          <td>第3回の開催情報を追加しました</td>
+        </tr>
+        <tr>
+          <th>2018.2.27</th>
+          <td>第2回の開催日を変更しました</td>
+        </tr>
+        <tr>
+          <th>2018.2.24</th>
+          <td>第2回の開催情報を追加しました</td>
+        </tr>
+        <tr>
+          <th>2018.2.22</th>
+          <td>第1回の情報を更新しました</td>
+        </tr>
+        <tr>
+          <th>2018.2.17</th>
+          <td><a href="activity_report.html">アクティビティレポート</a>を公開しました</td>
+        </tr>
+        <tr>
+          <th>2018.2.15</th>
+          <td>取り扱い内容を追記しました</td>
+        </tr>
+        <tr>
+          <th>2018.2.14</th>
+          <td>本ページを公開しました</td>
+        </tr>
       </table>
 
       <!--
@@ -173,7 +179,7 @@
           </tr>
           <tr>
             <th>人工知能(機械学習)</th>
-            <td>Pythonを用いたプログラミング, Pythonライブラリ(NumPy, Scipy, Pandas, Matplotlib), 機械学習フレームワーク(Scikit Learn, Tensorflow, Cuda), 
+            <td>Pythonを用いたプログラミング, Pythonライブラリ(NumPy, Scipy, Pandas, Matplotlib), 機械学習フレームワーク(Scikit Learn, Tensorflow, Cuda),
 		    AIに必要な数学の基本(線形代数、微分積分、確率・統計)</td>
           </tr>
           <tr>
@@ -277,39 +283,38 @@
             <td>13:30 - 13:40</td>
             <td></td>
           </tr>
-      
-          <!--<tr>
-                  <th>1</th>
-                  <td>Python(仮)</td>
-                  <td>15:10 - 15:50</td>
-                  <td>渕上 朔太郎</td>
-                </tr>-->
-      
+
           <tr>
             <th>1</th>
-            <td>未定</td>
+            <td>ITの基本知識 ~ITパスポート取得に向けて~ ②</td>
             <td>13:40 - 14:20</td>
             <td>萩原 和人</td>
           </tr>
-      
+
           <tr>
             <th>2</th>
-            <td>機械学習入門　その3</td>
+            <td>Python実践(仮)</td>
             <td>14:30 - 15:00</td>
+            <td>渕上 朔太郎</td>
+          </tr>
+
+          <tr>
+            <th>3</th>
+            <td>機械学習入門　その3</td>
+            <td>15:10 - 15:50</td>
             <td>東 昭太朗</td>
           </tr>
 
-          
           <tr>
             <th></th>
             <td>クロージング</td>
             <td>15:50 - 16:00</td>
             <td></td>
           </tr>
-      
+
         </tbody>
       </table>
-      
+
       <h2>第2回</h2>
       <table id="timetable_02" class="table table-striped table-bordered">
 	      <caption>第2回</caption>
@@ -342,7 +347,7 @@
             <td>15:10 - 15:50</td>
             <td>萩原 和人</td>
           </tr>
-          
+
           <tr>
             <th>2</th>
             <td><a href="./pdf/higashi_02.pdf">機械学習入門　その2</a></td>
@@ -351,16 +356,9 @@
           </tr>
 
           <tr>
-            <th>1</th>
-            <td>Python(仮)</td>
-            <td>15:10 - 15:50</td>
-            <td>渕上 朔太郎</td>
-          </tr>
-          
-          <tr>
             <th></th>
             <td>クロージング</td>
-            <td>15:50 - 16:00</td>
+            <td>15:00 - 15:10</td>
             <td></td>
           </tr>
 
