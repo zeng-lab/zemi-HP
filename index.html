@@ -66,10 +66,16 @@
     .textblock {
       display: inline-block;
     }
-
+    .scroll-wrap {
+      height: 30vh;
+      width: 50vw;
+      overflow: auto;
+      background-color: rgba(255,255,255,0.3);
+      margin: 0 auto;
+    }
     table {
       margin: 0 auto;
-      background-color: rgba(255,255,255,0.25) !important;
+      /*background-color: rgba(255,255,255,0.25) !important;*/
     }
     table tr{
       line-height: 2em;
@@ -92,58 +98,61 @@
 
     <section>
       <h1>更新情報</h1>
-      <table>
-        <!--
-        <tr>
-          <th>2018.</th>
-          <td>第n回の開催情報を追加しました</td>
-        </tr>
-        -->
-        <tr>
-          <th>2018.4.6</th>
-          <td>第3回の発表資料を公開しました</td>
-        </tr>
-        <tr>
-          <th>2018.3.20</th>
-          <td>第3回の開催日を延期しました</td>
-        </tr>
-        <tr>
-          <th>2018.3.16</th>
-          <td>第4回の開催情報を追加しました</td>
-        </tr>
-        <tr>
-          <th>2018.3.16</th>
-          <td>第3回の開催情報を修正しました</td>
-        </tr>
-        <tr>
-          <th>2018.3.9</th>
-          <td>第3回の開催情報を追加しました</td>
-        </tr>
-        <tr>
-          <th>2018.2.27</th>
-          <td>第2回の開催日を変更しました</td>
-        </tr>
-        <tr>
-          <th>2018.2.24</th>
-          <td>第2回の開催情報を追加しました</td>
-        </tr>
-        <tr>
-          <th>2018.2.22</th>
-          <td>第1回の情報を更新しました</td>
-        </tr>
-        <tr>
-          <th>2018.2.17</th>
-          <td><a href="activity_report.html">アクティビティレポート</a>を公開しました</td>
-        </tr>
-        <tr>
-          <th>2018.2.15</th>
-          <td>取り扱い内容を追記しました</td>
-        </tr>
-        <tr>
-          <th>2018.2.14</th>
-          <td>本ページを公開しました</td>
-        </tr>
-      </table>
+      <div class="scroll-wrap">
+        <table>
+          <!--
+          <tr>
+            <th>2018.</th>
+            <td>第n回の開催情報を追加しました</td>
+          </tr>
+          -->
+          <tr>
+            <th>2018.4.6</th>
+            <td>第3回の発表資料を公開しました</td>
+          </tr>
+          <tr>
+            <th>2018.3.20</th>
+            <td>第3回の開催日を延期しました</td>
+          </tr>
+          <tr>
+            <th>2018.3.16</th>
+            <td>第4回の開催情報を追加しました</td>
+          </tr>
+          <tr>
+            <th>2018.3.16</th>
+            <td>第3回の開催情報を修正しました</td>
+          </tr>
+          <tr>
+            <th>2018.3.9</th>
+            <td>第3回の開催情報を追加しました</td>
+          </tr>
+          <tr>
+            <th>2018.2.27</th>
+            <td>第2回の開催日を変更しました</td>
+          </tr>
+          <tr>
+            <th>2018.2.24</th>
+            <td>第2回の開催情報を追加しました</td>
+          </tr>
+          <tr>
+            <th>2018.2.22</th>
+            <td>第1回の情報を更新しました</td>
+          </tr>
+          <tr>
+            <th>2018.2.17</th>
+            <td><a href="activity_report.html">アクティビティレポート</a>を公開しました</td>
+          </tr>
+          <tr>
+            <th>2018.2.15</th>
+            <td>取り扱い内容を追記しました</td>
+          </tr>
+          <tr>
+            <th>2018.2.14</th>
+            <td>本ページを公開しました</td>
+          </tr>
+        </table>
+
+      </div>
 
       <!--
       <span class="textblock">2018/02/27</span><span class="textblock">第2回の開催日を変更しました</span>
